@@ -33,6 +33,7 @@ and what commit their found in are in the table below:
 
 |Module            |Commit Hash         |
 |------------------|--------------------|
+|Grammar           | Not yet implemented|
 |Lexical Analyzer  | Not yet implemented|
 |Parser            | Not yet implemented|
 |Environment Module| Not yet implemented|
