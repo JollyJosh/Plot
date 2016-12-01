@@ -1,0 +1,14 @@
+program     :   optExprList
+            ;
+optExprList :   *none*
+            |   exprList
+            ;
+exprList    :   expr
+            |   expr optExprList
+            ;
+expr        :   ID
+            |   STRING
+            |   INTEGER
+            |   TRUE
+            |   FALSE
+            |   OPAREN exprList CPAREN
