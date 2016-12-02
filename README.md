@@ -33,11 +33,11 @@ and what commit their found in are in the table below:
 
 |Module            |Commit Hash         |
 |------------------|--------------------|
-|Grammar           | Not yet implemented|
-|Lexical Analyzer  | Not yet implemented|
-|Parser            | Not yet implemented|
-|Environment Module| Not yet implemented|
-|Evaluator         | Not yet implemented|
+|Grammar           | 9f8c99c            |
+|Lexical Analyzer  | e887b04            |
+|Parser            | 77f2afc            |
+|Environment Module| 234b741            |
+|Evaluator         | 7bc1bdb            |
 
 Additional functionality to the language is encouraged,
 however the author leaves it up to those experimenting
