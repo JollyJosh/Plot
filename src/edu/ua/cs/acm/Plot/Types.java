@@ -5,7 +5,6 @@ package edu.ua.cs.acm.Plot;
  */
 public enum Types {
 
-    EXPRESSION("expr"),
     GLUE("GLUE"),
     INTEGER("INT"),
     OPAREN("("),
@@ -19,7 +18,6 @@ public enum Types {
     CLOSURE("closure"),
     BUILT_IN("built in closure"),
     FUNCTION_CALL("functionCall"),
-    SEMI(";"),
     NIL("nil");
 
     private String type;

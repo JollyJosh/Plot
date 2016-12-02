@@ -86,8 +86,6 @@ public class Lexer {
             return lexNumber(ch, 1);
         } else {
             switch(ch) {
-                case ';':
-                    return new Lexeme(Types.SEMI);
                 case '(':
                     return new Lexeme(Types.OPAREN);
                 case ')':
