@@ -1,0 +1,26 @@
+
+; this is a comment. It should now show up.
+
+(define (helper a b)
+    (print b "\n")
+    a
+)
+
+(print (helper 1 2))
+
+(define (test)
+    (print "test success\n")
+    (+ 5 10)
+    (ppEnv)
+)
+
+(define b 5)
+
+(print (test) "\n")
+
+(print (+ b 15) "\n")
+
+
+((lambda (a b) (print a "\n" b "\n")) 3 7)
+
+(ppEnv)

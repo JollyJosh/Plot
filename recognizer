@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ ! -f bin/Recognizer.jar ]; then
+    make recognizer > /dev/null
+fi
+
+java -jar bin/Recognizer.jar "$@"

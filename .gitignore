@@ -42,3 +42,7 @@ crashlytics-build.properties
 fabric.properties
 
 *.iml
+
+.DS_Store
+
+bin/*

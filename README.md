@@ -19,8 +19,8 @@ new features in Java like lambdas.
 
 This is a 5 part workshop. In the first workshop we'll explain
 how to run the project, and go over a simple BNF notation for
-our grammar. And in each of the following workshops we'll
-implement each module. The full code will be available before
+our language's grammar. And in each of the following workshops
+we'll implement each module. The full code will be available before
 the workshop.
 
 This git repository will have the full source available upon
@@ -39,6 +39,9 @@ and what commit their found in are in the table below:
 |Environment Module| Not yet implemented|
 |Evaluator         | Not yet implemented|
 
+Additional functionality to the language is encouraged,
+however the author leaves it up to those experimenting
+with languages to implement additional functionality.
 
 ## Contributing
 

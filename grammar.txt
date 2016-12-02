@@ -1,10 +1,10 @@
-program     :   optExprList
+program     :   optExprList EOF
             ;
 optExprList :   *none*
             |   exprList
             ;
 exprList    :   expr
-            |   expr optExprList
+            |   expr SPACE optExprList
             ;
 expr        :   ID
             |   STRING
