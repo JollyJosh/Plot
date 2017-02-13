@@ -50,7 +50,7 @@ and issue a pull request. We'll do our best to review it.
 
 ## License
 
-Copyright (c) 2016 UA ACM
+Copyright &copy; 2016 UA ACM
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated
